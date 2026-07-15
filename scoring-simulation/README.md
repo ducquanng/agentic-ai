@@ -1,8 +1,6 @@
 # Scoring-logic simulation — reproducibility package
 
-Supplementary material for the thesis *"A Model-Validation-Ready Risk Taxonomy,
-Metrics, and Comparative Scoring Framework for Agentic AI in Financial
-Institutions."* It reproduces the Monte-Carlo study of the comparative
+Supplementary material for the thesis *"From Risk Taxonomy to Comparable Score: A Model-Validation-Ready Framework for the Second-Line Assessment of Agentic AI in Financial Institutions"* It reproduces the Monte-Carlo study of the comparative
 risk-scoring logic (Chapter 6) and the figure `sim_scoring.png`.
 
 This is a **structural / behavioural analysis of the aggregation operator**: it
