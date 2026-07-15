@@ -79,10 +79,15 @@ jupyter nbconvert --to notebook --execute --inplace scoring_simulation.ipynb
    choice.
 
 ## Method note (equations, Chapter 6)
-Dimension score  R_id = 1 - prod_j (1 - x_hat_ij)^{w_j}                    (Eq. 6.2)
-Composite        Risk_i = max( 1 - prod_d (1-R_id)^{W_d}, max_{d in C} R_id ) (Eq. 6.3)
-with C = {Access Control, Action Control, Monitoring & Audit} (the veto floor).
-Risk bands are terciles: Low < 1/3 ≤ Medium < 2/3 ≤ High.
 
-Sobol' estimators: first-order S_i (Saltelli et al., 2010), total-effect S_Ti
-(Jansen, 1999), on a Sobol' quasi-random Saltelli design; 95% CIs by bootstrap.
+Dimension risk score:
+
+$$R_{id} = 1 - \prod_{j} \left(1 - \hat{x}_{ij}\right)^{w_j} \qquad (6.2)$$
+
+Use-case composite:
+
+$$\mathrm{Risk}_i = \max\left( 1 - \prod_{d} \left(1 - R_{id}\right)^{W_d},\ \max_{d \in \mathcal{C}} R_{id} \right) \qquad (6.3)$$
+
+where $\mathcal{C}$ is the set of critical-control dimensions (Access Control, Action Control, Monitoring and Audit); the second term is the **veto floor**. Risk bands are terciles: Low $< 1/3$, Medium $\in [1/3,\, 2/3)$, High $\ge 2/3$.
+
+**Sobol' estimators:** first-order $S_i$ (Saltelli et al., 2010) and total-effect $S_{Ti}$ (Jansen, 1999), on a Sobol' quasi-random Saltelli design; 95% CIs by bootstrap.
