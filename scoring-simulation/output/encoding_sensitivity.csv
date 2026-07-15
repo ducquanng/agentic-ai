@@ -1,6 +1,0 @@
-coding,UC-A,UC-A_band,UC-B,UC-B_band,UC-C,UC-C_band,order_high_to_low
-0.2/0.5/0.8 [reference],0.500,Medium,0.800,High,0.800,High,UC-B; UC-C; UC-A
-0.1/0.5/0.9,0.500,Medium,0.900,High,0.900,High,UC-B; UC-C; UC-A
-0.25/0.5/0.75,0.500,Medium,0.750,High,0.750,High,UC-B; UC-C; UC-A
-0.3/0.5/0.7,0.500,Medium,0.700,High,0.700,High,UC-B; UC-C; UC-A
-0.2/0.4/0.9 (asymmetric),0.400,Medium,0.900,High,0.900,High,UC-B; UC-C; UC-A

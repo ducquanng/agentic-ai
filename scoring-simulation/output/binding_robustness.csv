@@ -1,6 +1,0 @@
-input_model,veto_binds_fraction,MCSE,mean_composite
-"iid Uniform(0,1) [reference]",0.8255,0.00085,0.7720
-correlated rho=0.3 (Gaussian copula),0.8376,0.00082,0.7213
-correlated rho=0.6 (Gaussian copula),0.8518,0.00079,0.6617
-"risk-low: Beta(2,5) marginals",0.8558,0.00079,0.4333
-"risk-high: Beta(5,2) marginals",0.8723,0.00075,0.8500
