@@ -1,0 +1,4 @@
+rule,UC-A,UC-B,UC-C,order_high_to_low
+additive,0.286,0.714,0.800,UC-C; UC-B; UC-A
+geometric,0.301,0.740,0.800,UC-C; UC-B; UC-A
+geometric+veto,0.500,0.800,0.800,UC-B; UC-C; UC-A

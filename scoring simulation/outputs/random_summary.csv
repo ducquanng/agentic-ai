@@ -1,0 +1,9 @@
+metric,value
+n_random_use_cases,200000
+veto_floor_binds_fraction,0.8255
+veto_floor_binds_MCSE,0.00085
+analytic_bound_mean_le_comp_le_max_holds,True
+mean_additive,0.5002
+mean_geometric,0.6077
+mean_geometric+veto,0.7720
+mean_plain_max,0.8751
