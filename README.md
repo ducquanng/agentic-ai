@@ -78,7 +78,3 @@ If you use this material, please cite the thesis:
  
 > Nguyen, D. Q. (2026). *From Risk Taxonomy to Comparable Score: A Model-Validation-Ready Framework for the Second-Line Assessment of Agentic AI in Banking.* MSc thesis, University of Amsterdam.
  
-## License
- 
-No licence is set yet. Consider adding one so others know how they may reuse the material — a common choice is **MIT** for the code and **CC BY 4.0** for the data/documentation. Add a `LICENSE` file at the repository root.
- 
