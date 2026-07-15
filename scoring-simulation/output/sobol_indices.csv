@@ -1,0 +1,8 @@
+dimension,critical,S1_first_order,S1_lo,S1_hi,ST_total_effect,ST_lo,ST_hi
+Information Integrity,False,0.006,-0.009,0.023,0.022,0.020,0.024
+Goal Integrity,False,0.006,-0.010,0.021,0.021,0.020,0.023
+Access Control,True,0.237,0.162,0.308,0.412,0.398,0.427
+Action Control,True,0.243,0.173,0.313,0.411,0.395,0.426
+Human Oversight,False,0.003,-0.012,0.019,0.022,0.020,0.024
+Monitoring & Audit,True,0.233,0.157,0.302,0.411,0.397,0.425
+Ecosystem Resilience,False,0.004,-0.011,0.020,0.022,0.020,0.023
